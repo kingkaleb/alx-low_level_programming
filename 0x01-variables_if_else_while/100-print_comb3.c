@@ -16,8 +16,8 @@ while (x < 10)
 {
 if (y != x && y < x)
 {
-putxhar('0' + y);
-putxhar('0' + x);
+putchar('0' + y);
+putchar('0' + x);
 
 if (x + y != 17)
 {
