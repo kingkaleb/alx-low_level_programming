@@ -4,17 +4,25 @@
 *
 * Return: Always 0 (Success/correct)
 */
+
 int main(void)
+
 {
-char alpha;
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-	{
-	if (alpha == 'e')
-		continue;
-	else if (alpha == 'q')
-		continue;
-	putchar(alpha);
-	}
+char alphabet;
+
+for (alphabet = 'a'; alphabet <= 'Z'; alphabet++)
+{
+if (alphabet == 'q')
+continue;
+
+else if (alphabet == 'e')
+continue;
+
+putchar(alphabet);
+}
+
 putchar('\n');
+
 return (0);
+
 }

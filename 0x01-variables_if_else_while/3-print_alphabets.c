@@ -5,16 +5,25 @@
 * Return: Always 0 (Success/correct)
 */
 int main(void)
+
 {
-for (char alpha = 'a'; alpha <= 'z'; alpha++)
+char lower_case;
+char upper_case;
+
+for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 {
-putchar(alpha);
+putchar(lower_case);
 }
-for (char alpha = 'A'; alpha <= 'Z'; alpha++)
+
+
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 {
-putchar(alpha);
+putchar(upper_case);
 }
-putchar('\n');
-}
+
+
+putchar ('\n');
+
 return (0);
+
 }
