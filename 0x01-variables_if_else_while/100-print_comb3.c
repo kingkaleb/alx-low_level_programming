@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main function
- * POI
- */
+* main - Entry point
+*
+* Return: Always 0 (Success/correct)
+*/
 int main(void)
 {
 int x;
