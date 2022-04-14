@@ -1,1 +1,1 @@
-My first readme for this project
+My readme for the 0x03-debugging
