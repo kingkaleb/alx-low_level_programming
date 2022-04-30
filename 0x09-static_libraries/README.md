@@ -1,1 +1,1 @@
-my readme for this project
+Ox09 Static Libraries task
